@@ -9,8 +9,8 @@ public class Interfaz {
 
     private Control ctrl;
 
-    public Interfaz(Control cont) {
-        ctrl = cont;
+    public Interfaz() {
+        ctrl = new Control();
     }
 
     public void BienvInter(int t) {

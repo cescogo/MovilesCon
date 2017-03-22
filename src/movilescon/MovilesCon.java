@@ -5,6 +5,10 @@
  */
 package movilescon;
 
+import Vista.Interfaz;
+
+
+
 /**
  *
  * @author ccg
@@ -15,7 +19,9 @@ public class MovilesCon {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Interfaz in= new Interfaz();
+       in.init();
+       
     }
     
 }
