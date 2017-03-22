@@ -1,9 +1,9 @@
 package Vista;
 
 import java.util.Scanner;
+import java.util.ArrayList;
 import Control.Control;
 import Modelo.*;
-import java.util.ArrayList;
 
 public class Interfaz {
 
